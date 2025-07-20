@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #101010;
+  padding: 5px;
+  overflow: hidden;
+}
+
+
+.logo-right {
+  float: right;
+}
+
+.logo-left {
+  float: left;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+nav h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+nav a {
+  float: right;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #8B0000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar li {
+  padding: 15px 5px;
+  font-size: 16px;
+}
+
+
+
+
+    header {
+     background: url("image08.jpg") repeat;
+     padding: 3rem 1rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    form {
+     background-color: rgba(10, 192, 228, 0.7);
+     padding: 2rem;
+     width: 320px;
+    }
+    form input {
+     width: 100%;
+     padding: 0.5rem;
+     margin-top: 0.3rem;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+    }
+    form button{
+     width: 100%;
+     padding: 0.5rem;
+     margin-top: 0.3rem;
+     border:hwb(49 2% 7%) ;
+     background-color:  hwb(49 2% 7%);
+     border-radius: 20px;
+    }
+
+    form input:hover{
+      background-color: yellow;
+    }
+
+
+
+
+    /* Footer */
+footer {
+  background-color: #1e1e1e;
+  color: white;
+  padding-top: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 2rem;
+  gap: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-logo img {
+  width: 80px;
+  margin-bottom: 0.5rem;
+  border-color:rgb(4, 0, 255);
+  margin-left: 4rem;
+  border-width: 5px;
+  border-radius: 50%;
+  border: 3px solid red;
+}
+
+.footer-logo p {
+  font-size: 0.9rem;
+  max-width: 250px;
+  font-family:"Sofia", sans-serif;
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+
+}
+.footer-info{
+  line-height: 3.7;
+}
+.sprite-icon{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-image: url('image09.jpg');
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.icon-location{
+  background-position: -52px -4px;
+}
+.icon-phone{
+  background-position: -199px -6px;
+}
+.icon-email{
+  background-position: -248px -6px;
+}
+
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.8;
+}
+
+.footer-info p  {
+  font-size: 0.9rem;
+  line-height: 250%;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: #333;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+}
